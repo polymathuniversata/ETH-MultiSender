@@ -19,26 +19,31 @@ Before running the application, make sure you have the following installed:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/bulk-multi-sender.git
+    git clone https://github.com/your-username/bulk-multi-sender.git
+   
 
-2. Change into the project directory:
+3. Change into the project directory:
 
-cd bulk-multi-sender
+    cd bulk-multi-sender
+
 
 3. Install dependencies:
-npm install
-npm install -g live-server
+    npm install
+    npm install -g live-server
+
 
 4. Usage
-Run the application:
+    Run the application:
+    
+    live-server frontend
+    
+    Open your web browser and navigate to http://localhost:8080.
 
-live-server frontend
-
-Open your web browser and navigate to http://localhost:8080.
 
 5. Connect your MetaMask wallet.
 
-Enter the recipient addresses and amounts in the provided textarea.
+    Enter the recipient addresses and amounts in the provided textarea.
+
 
 6. Click the "Send ETH" button to initiate the transaction.
 
